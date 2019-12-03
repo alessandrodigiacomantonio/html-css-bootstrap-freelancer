@@ -1,4 +1,7 @@
 /* regole di stile generiche */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 .compacted_70 {
   width: 70%;
   margin: 0 auto;
@@ -16,6 +19,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.max_width_992 {
+  max-width: 992px;
+  margin: 0 auto;
+}
 
 /* stile principale in bootstrap: meno di 768px di screen */
 /* testata */
@@ -23,54 +30,84 @@ header {
   color: #fff;
 }
 nav {
-  height: 100px;
+  /* height: 100px; */
   line-height: 100px;
   vertical-align: middle;
   background-color: #2c3e50;
 }
-nav .compacted_70 {
-  max-width: 992px;
-}
+
 nav h3 {
   /* font-size: 3rem; */
   line-height: 100px;
   vertical-align: middle;
   margin-top: 0px;
   margin-bottom: 0px;
+  font-weight: bold;
 }
 /* nav .menu li {
   margin: 0 5px;
   padding: 5px;
 } */
-nav .menu li a {
+nav .menu a {
   /* font-size: 2rem; */
   color: #fff;
+  font-weight: bold;
 }
+nav .menu a:hover {
+  /* font-size: 2rem; */
+  color: #1abc9c;
+}
+nav .menu a:not(.btn_menu) {
+  display: none;
+}
+/* nav .menu a.btn_menu {
+  display: inline-block;
+} */
+
 
 .jumbotron {
   height: 850px;
   background-color: #1abc9c;
 }
 .jumbotron img {
-  height: 150px;
+  height: 300px;
+}
+.jumbotron h1 {
+  font-weight: bold;
 }
 
 /* corpo */
 section .box {
   margin-bottom: 30px;
   height: 250px;
-  background-color: red;
+  background-color: pink;
   border-radius: 15px;
 }
+
 /* media queries */
 @media screen and (min-width: 768px) {
-
+  nav .menu a:not(.btn_menu) {
+    display: inline-block;
+  }
+  nav .menu a.btn_menu {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 992px) {
-
+  nav .menu a:not(.btn_menu) {
+    display: inline-block;
+  }
+  nav .menu a.btn_menu {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-
+  nav .menu a:not(.btn_menu) {
+    display: inline-block;
+  }
+  nav .menu a.btn_menu {
+    display: none;
+  }
 }
