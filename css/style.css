@@ -57,9 +57,10 @@ nav .menu li a {
 
 /* corpo */
 section .box {
-  padding: 10px;
-  height: 150px;
+  margin-bottom: 30px;
+  height: 250px;
   background-color: red;
+  border-radius: 15px;
 }
 /* media queries */
 @media screen and (min-width: 768px) {
