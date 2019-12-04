@@ -80,7 +80,10 @@ main section {
 main section h2 {
   font-weight: bold;
 }
-section .box {
+section#portfolio {
+  color: #2c3e50;
+}
+section#portfolio .box {
   margin-bottom: 30px;
   height: 250px;
   background-color: pink;
@@ -99,7 +102,9 @@ section#about {
   margin-top: 15px;
   border-color: #fff;
 }
-
+section#contact_me {
+  color: #2c3e50;
+}
 section#contact_me .form-group{
   border-bottom: 1px solid #eee;
   padding-bottom: 15px;
@@ -113,6 +118,14 @@ section#contact_me .form-group{
 }
 #contact_me textarea {
   resize: none;
+}
+#contact_me input::placeholder,
+#contact_me textarea::placeholder {
+  color: #495057;
+}
+#contact_me button {
+  background-color: #1abc9c;
+  color: #fff;
 }
 
 /* media queries */
