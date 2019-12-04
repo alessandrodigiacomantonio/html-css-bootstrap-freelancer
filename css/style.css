@@ -61,14 +61,14 @@ nav .menu a.btn_menu {
   color: #fff;
 }
 
-.jumbotron {
+.jumbo {
   height: 850px;
   background-color: #1abc9c;
 }
-.jumbotron img {
+.jumbo img {
   height: 300px;
 }
-.jumbotron h1 {
+.jumbo h1 {
   font-weight: bold;
 }
 
