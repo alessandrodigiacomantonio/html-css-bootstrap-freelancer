@@ -24,6 +24,24 @@ body {
   margin: 0 auto;
 }
 
+.box_star {
+  margin: 30px auto 40px;
+}
+.hr_star {
+  display: inline-block;
+  margin: 1px 20px;
+  border-radius: 4px;
+  width: 25%;
+}
+.hr_white {
+  border: 2.5px solid #fff;
+}
+.hr_blue {
+  border: 2.5px solid #2c3e50;
+}
+.star {
+  font-size: 2.8em;
+}
 /* stile principale in bootstrap: meno di 768px di screen */
 /* testata */
 header {
