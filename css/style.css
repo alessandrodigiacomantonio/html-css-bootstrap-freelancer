@@ -80,16 +80,21 @@ main section {
 main section h2 {
   font-weight: bold;
 }
+/* main: sezione #portfolio */
 section#portfolio {
   color: #2c3e50;
 }
 section#portfolio .box {
   margin-bottom: 30px;
-  height: 250px;
   background-color: pink;
+}
+#portfolio img {
+  max-width: 100%;
   border-radius: 15px;
 }
+/* /main: sezione #portfolio */
 
+/* main: sezione #about */
 section#about {
   color: #fff;
   background-color: #1abc9c;
@@ -102,6 +107,9 @@ section#about {
   margin-top: 15px;
   border-color: #fff;
 }
+/* /main: sezione #about */
+
+/* main: sezione #contact_me */
 section#contact_me {
   color: #2c3e50;
 }
@@ -127,6 +135,7 @@ section#contact_me .form-group{
   background-color: #1abc9c;
   color: #fff;
 }
+/* main: sezione #contact_me */
 /* /corpo del documento */
 
 /* footer */
