@@ -150,6 +150,12 @@ footer #footer_info {
   padding: 15px;
 }
 
+#footer_copyleft {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+  background-color: #1a252f;
+}
 
 /* media queries */
 @media screen and (min-width: 768px) {
