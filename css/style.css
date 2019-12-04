@@ -143,6 +143,12 @@ footer #footer_info {
 #footer_info span a {
   color: #1abc9c;
 }
+#footer_info a.btn  {
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  padding: 15px;
+}
 
 
 /* media queries */
